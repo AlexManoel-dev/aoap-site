@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Source</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap');
+
+        html{
+            font-size:62.5%;
+        }
+        body {
+            font-family: 'Prompt', sans-serif;
+            margin: 0;
+            
+        }
+
+        h1 {
+            color:#c03636e5;
+            font-size: 9.5rem;
+           
+
+        }
+
+        div {
+            background: white;
+            width: 100%;
+            
+            text-align: center;
+            margin-top: 2px;
+        }
+
+        @media (max-width:768px){
+    html{
+        font-size: 30%;
+    }
+   
+}
+
+@media (max-width:320px){
+    html{
+        font-size: 23%;
+    }
+   
+}
+    </style>
+</head>
+
+<body>
+    
+    <div>
+        <h1> Quer alguma dica de primeiros socorros ?</h1>
+    </div>
+
+    <script>
+    
+  function typeWriter(elemento){
+      var textoArray = elemento.innerHTML.split('')
+      elemento.innerHTML = ''
+      
+      textoArray.forEach((letra, i )=> {
+          setTimeout(function(){
+            elemento.innerHTML+=letra
+          }, 74 * i)
+      });
+  }
+
+       var titulo = document.querySelector('h1')
+
+       setTimeout(function(){
+           typeWriter(titulo)
+        },2002)
+       
+    </script>
+</body>
+
+</html>

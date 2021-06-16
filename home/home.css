@@ -1,0 +1,1196 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url(wallpaper.png) no-repeat center fixed;
+    background-size: cover;
+    /*background-position-y: 100px;*/
+}
+
+
+.corpo{
+    display: none;
+    font-family: 'Poppins';
+}
+.carrregando{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+#gif{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+::-webkit-scrollbar{
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-thumb{
+    background-color: #5683d6ea;
+    border-radius: 30px;
+}
+
+header{
+    background-color: #4169E1;
+    
+} 
+
+#cabecalho{
+    height: 120px;
+    width: 100%;
+    padding: 0%;
+    
+}
+
+#botoes{
+    position: absolute;
+    left: 38%;
+    top : 43px;
+    height: 50px;
+    width: 450px;
+    
+}
+
+.btn{
+    height: 42px;
+    width: 184px;
+    border-radius: 3px;
+    outline: 0;
+    background-color: rgb(221, 208, 208);
+    margin: -4px;
+    padding: 0px;
+    cursor: pointer;
+    font-family: 'Prompt', sans-serif;
+      
+}
+
+.btn:hover{
+    background-color: rgb(241, 239, 239);}
+
+#primeirobotao{
+    border-top-left-radius: 11px;
+    border-bottom-left-radius: 13px;
+     
+}
+
+#ultimobotao{
+    border-top-right-radius: 11px;
+    border-bottom-right-radius: 13px;
+     
+}
+
+#mulher{
+    position: absolute;
+    margin-top: 40px;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    right: 0;
+    top: -20px;
+}
+
+#logo{
+    width: 110px;
+    height: 90px;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    
+}
+
+#botoeslec{
+    position: absolute;
+    right: 20px;
+    height: 100px;
+    width: 110px;
+    top: 13px;
+    opacity: 1;
+     
+}
+
+.botoeslc{
+    height: 40px;
+    width: 100px;
+    margin-left: 1px;
+    background: #5683d6ea;
+    outline: 0;
+    border-color:#5683d6ea;
+    border-radius: 13px;
+    opacity: 1;
+    cursor: pointer;
+    font-family: 'Prompt', sans-serif;
+    color:white;
+    
+}
+
+#cadastro{
+    margin-top: 10px;
+    
+}
+
+#login:hover{
+    background: #749de9ea;
+}
+
+#cadastro:hover{
+    background: #749de9ea;
+}
+
+
+.div {
+    position: relative;
+    float: left;
+    border-width: 2px;
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    margin-right: -69px;
+    top: 80px;
+    background-color: #5683d6;
+    border-radius: 5px;
+     
+}
+
+
+
+#divfoto1{
+    height: 100px;
+    width: 100px;
+    
+}
+
+#divfoto2{
+    height: 100px;
+     
+}
+
+.primeira{
+    text-align: center;
+    
+    margin-left: 48%;
+      
+}
+
+.primeira h2{
+    margin-top: 2px;
+    font-size: 20px;
+    
+}
+
+.segunda{
+    text-align: center;
+    margin-right: -200px;
+    
+}
+.div.primeira{
+    left: -6%;
+      
+}
+
+.segunda h2{
+    margin-top: 2px;
+    font-size: 20px;
+      
+    
+}
+
+.saibamais{
+    background-color: rgb(53, 53, 136);
+    opacity: 0.5;
+    color: white;
+    width: 100px;
+    height: 30px;
+    margin-top: 8px;
+    outline: 0;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: 'Poppins';
+     
+}
+
+.saibamais:hover{
+    background-color: rgb(81, 81, 182);
+    animation: tremida 0.9s;
+    
+}
+
+@keyframes tremida{
+    0%{
+        width: 100px; 
+    }
+    50%{
+        width: 140px;
+    }
+    100%{
+        width: 100px;
+    }
+}
+
+#divbranca{
+    position: absolute;
+    margin-top: 500px;
+    
+    background-color: rgba(255,255,255,0.5);
+    height: 348px;
+    width: 100%;
+    
+    
+}
+
+.sla{
+    border-radius: 10px;
+    background-color: #5683d6;
+    width: 80px;
+    height:80px;
+    margin-left: 27.4%;
+    margin-top: 50px;
+    
+}
+
+.sla2{
+    border-radius: 10px;
+    background-color: #5683d6;
+    width: 80px;
+    height:80px;
+    margin-left: 45.8%;
+    margin-top: -80px; 
+    
+}
+
+.sla3{
+    border-radius: 10px;
+    background-color: #5683d6;
+    width: 80px;
+    height:80px;
+    margin-left: 65.2%;
+    margin-top: -80px;
+    
+}
+
+#carinha{
+    position: relative;
+    left: -12px;
+    top: -10px;
+     
+}
+
+
+#pessoinha{
+    position: relative;
+    left: -10px;
+    top: -10px;
+     
+}
+
+#itenzinho{
+    position: relative;
+    left: -5px;
+    
+}
+
+#msg{
+    margin-left: 44%;
+    
+}
+
+#saibamais1{
+    position: absolute;
+    left: 26.9%;
+    bottom: 75px;
+    
+}
+
+#saibamais2{
+    position: absolute;
+    left: 45.3%;
+    bottom: 65px;
+      
+}
+
+#saibamais3{
+    position: absolute;
+    left: 64.5%;
+    bottom: 75px;
+   
+}
+
+.links{
+    text-decoration: none;
+     
+}
+
+.links:hover{
+    text-decoration: underline;
+    
+}
+
+#consulta{
+    background: #5683d6;
+    position: relative;
+    bottom: -410px;
+    height: 90px;
+    width: 100%;
+    font-family: 'Poppins';
+   
+}
+
+#consulta p{
+    position: absolute;
+    left: 30%;
+    top: 10px;
+    color: white;
+    font-size: 20px;
+     
+}
+
+#consulta button{
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    left: 65%;
+    top: 30px;
+    background: #6d97e6;
+    border-color: #6d97e6;
+    outline: 0;
+    cursor: pointer;
+    font-family: 'Poppins';
+    color:white;
+    
+}
+
+#consulta button:hover{
+    background: #92afe6;
+    
+}
+
+#slatexto1{
+    position: absolute;
+    bottom: 100px;
+    left: 25.5%;
+    
+}
+
+#slatexto2{
+    position: absolute;
+    bottom: 80px;
+    left: 43.7%;
+    text-align: center;
+    
+}
+
+#slatexto3{
+    position: absolute;
+    bottom: 103px;
+    left: 63%;
+     
+}
+
+@media(max-width: 2560px){
+    .div{
+        margin-left: 27%;
+    }
+    footer{
+        bottom: 244px;
+    }
+    #login{
+        margin-top: 30px;
+    }
+    #botoes{
+        left: 45%;
+    }
+}
+@media(max-width: 1980px){
+    .div{
+        margin-left: 24.5%;
+    }
+    footer{
+        bottom: 244px;
+    }
+    #slatexto2{
+        left: 43.2%;
+    }
+    
+}
+
+
+@media(max-width: 1440px){
+    .div{
+        margin-left: 22%;
+    }
+    #slatexto2{
+        left: 42.5%;
+    }
+    #slatexto1{
+        left: 24.3%;
+    }
+    #slatexto3{
+        left: 61.2%;
+    }
+    #botoes{
+        left: 38%;
+    }
+}
+
+@media(max-width: 1280px){
+    .div{
+        margin-left: 21.6%;
+    }
+    footer{
+        bottom: -363px;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    #botoes{
+        left: 37%;
+    }
+}
+
+@media(max-width: 1039px){
+    #slatexto1{
+        left:200px;
+        font-size:15px;
+    }
+    #slatexto2{
+        left:435px;
+        font-size:15px;
+    }
+    #slatexto3{
+        left:655px;
+        font-size:15px;
+    }
+    .sla{
+        margin-left: 245px;
+    }
+    .sla2{
+        margin-left: 485px;
+    }
+    .sla3{
+        margin-left: 705px;
+    }
+    #carinha{
+        margin-left: -2px;
+    }
+     
+    #pessoinha{
+        margin-left: 0px;
+    }
+    
+    #itenzinho{
+        margin-left: -3px;
+    }
+    #saibamais1{
+        left: 230px;
+    }
+    
+    #saibamais2{
+        left: 470px;
+    }
+    
+    #saibamais3{
+        left: 695px;
+    }
+    #msg{
+        margin-left: 445px;
+    }
+}
+
+
+@media(max-width: 1024px){
+    .div{
+        margin-left: 16.5%;
+    }
+    #botoes{
+        left: 33%;
+    }
+}
+
+@media(max-width: 1012px){
+    .div{
+        margin-left: 15.5%;
+    }
+    #botoes{
+        left: 29%;
+
+    }
+}
+
+@media(max-width: 1000px){
+    #botoes{
+        left: 28%;
+    }
+}
+@media(max-width: 945px){
+    #botoes{
+        left: 27.9%;
+    }
+    #slatexto1{
+        left:120px;
+        font-size:15px;
+    }
+    #slatexto2{
+        left:365px;
+        font-size:15px;
+    }
+    #slatexto3{
+        left:595px;
+        font-size:15px;
+    }
+    .sla{
+        margin-left: 162px;
+    }
+    .sla2{
+        margin-left: 415px;
+    }
+    .sla3{
+        margin-left: 645px;
+    }
+    #carinha{
+        margin-left: -2px;
+    }
+     
+    #pessoinha{
+        margin-left: 0px;
+    }
+    
+    #itenzinho{
+        margin-left: -3px;
+    }
+    #saibamais1{
+        left: 150px;
+    }
+    
+    #saibamais2{
+        left: 400px;
+    }
+    
+    #saibamais3{
+        left: 625px;
+    }
+    #msg{
+        margin-left: 375px;
+    }
+}
+
+
+@media(max-width: 925px){
+    #consulta p{
+        left: 18%;
+    }
+    #consulta button{
+        left: 55%;
+    }
+}
+
+@media(max-width: 875px){
+    #consulta p{
+        left: 8%;
+    }
+    #consulta button{
+        left: 47%;
+    }
+}
+
+@media(max-width: 870px){
+    #consulta p{
+        left: 70px;
+    }
+    #consulta button{
+        left: 403px;
+    }
+}
+@media(max-width: 830px){
+    #slatexto1{
+        left:70px;
+        font-size:15px;
+    }
+    #slatexto2{
+        left:290px;
+        font-size:15px;
+    }
+    #slatexto3{
+        left:515px;
+        font-size:15px;
+    }
+    .sla{
+        margin-left: 112px;
+    }
+    .sla2{
+        margin-left: 335px;
+    }
+    .sla3{
+        margin-left: 565px;
+    }
+    #carinha{
+        margin-left: -2px;
+    }
+     
+    #pessoinha{
+        margin-left: 0px;
+    }
+    
+    #itenzinho{
+        margin-left: -3px;
+    }
+    #saibamais1{
+        left: 100px;
+    }
+    
+    #saibamais2{
+        left: 323px;
+    }
+    
+    #saibamais3{
+        left: 550px;
+    }
+    #msg{
+        margin-left: 295px;
+    }
+}
+
+@media(max-width: 813px){
+    .div{
+        margin-left: 8%;
+        margin: 15px;
+    }
+    .div.primeira{
+        margin-left: 13.5%;
+    }
+}
+
+@media(max-width: 775px){
+    #botoes{
+        left: 28%;
+    }
+}
+@media(max-width: 763px){
+.div.primeira{
+    margin-left: 7%;
+}
+
+}
+@media(max-width: 740px){
+    #botoes{
+        opacity: 0;
+        cursor: none;
+        pointer-events: none;
+    }
+    #botoeslec{
+        opacity: 0;
+        cursor: none;
+        pointer-events: none;
+    }
+    #logo{
+        left: 41%;
+    }
+    #mulher{
+        opacity: 0;
+    }
+}
+@media(max-width: 722px){
+    #slatexto1{
+        left:30px;
+      
+    }
+    #slatexto2{
+        left:255px;
+        
+    }
+    #slatexto3{
+        left:477px;
+       
+    }
+    .sla{
+        margin-left: 72px;
+    }
+    .sla2{
+        margin-left: 305px;
+    }
+    .sla3{
+        margin-left: 528px;
+    }
+    #carinha{
+        margin-left: -2px;
+    }
+     
+    #pessoinha{
+        margin-left: 0px;
+    }
+    
+    #itenzinho{
+        margin-left: -3px;
+    }
+    #saibamais1{
+        left: 55px;
+        
+    }
+    
+    #saibamais2{
+        left: 289px;
+        
+    }
+    
+    #saibamais3{
+        left: 510px;
+        
+    }
+    #msg{
+        margin-left: 255px;
+    }
+    .div.primeira{
+        margin-left: 8%;
+        margin-right: -3%;
+    }
+
+}
+
+@media(max-width: 716px){
+    .div.primeira{
+        margin-left: 7%;
+    }
+}
+@media(max-width: 694px){
+    .div.primeira{
+        margin-left: 8%;
+        margin-right: -22px;
+    }
+}
+
+@media(max-width: 685px){
+    #slatexto1{
+        left:30px;
+        font-size:13px;
+        bottom: 85px;
+    }
+    #slatexto2{
+        left:240px;
+        font-size:13px;
+        bottom: 65px;
+    }
+    #slatexto3{
+        left:447px;
+        font-size:13px;
+        bottom: 85px;
+    }
+    .sla{
+        margin-left: 72px;
+        width: 60px;
+        height:60px;
+    }
+    .sla2{
+        margin-left: 282px;
+        width: 60px;
+        height:60px;
+        margin-top: -60px; 
+    }
+    .sla3{
+        margin-left: 493px;
+        width: 60px;
+        height:60px;
+        margin-top: -56px; 
+    }
+    #carinha{
+        margin-left: -2px;
+        margin-top: -2px;
+        width: 90px;
+    }
+     
+    #pessoinha{
+        margin-left: -5px;
+        margin-top: -5px;
+        width: 90px;
+    }
+    
+    #itenzinho{
+        margin-left: -10px;
+        margin-top: -12px;
+        width: 90px;
+    }
+    #saibamais1{
+        left: 55px;
+        font-size:13px;
+        bottom: 45px;
+    }
+    
+    #saibamais2{
+        left: 274px;
+        font-size:13px;
+        bottom: 45px;
+    }
+    
+    #saibamais3{
+        left: 480px;
+        font-size:13px;
+        bottom: 45px;
+    }
+    #msg{
+        margin-left: -520px;
+        font-size:13px;
+    }
+}
+
+@media(max-width: 672px){
+    #segunda{
+        margin-left: 2px;  
+       
+    }
+    .div{
+        height: 200px;
+        width: 200px;
+        margin-left: 13%;
+    }
+    .div.primeira{
+        margin-right: -30px;
+        margin-left: 18%;
+    }
+}
+@media(max-width:636px){
+    #botoes{
+        
+        left: 0;
+        width: 2px;
+    }
+}
+
+@media(max-width: 630px){
+    #consulta p{
+        font-size: 15px;
+        top: 17px;
+    }
+    #consulta button{
+        left: 320px;
+    }
+    #slatexto1{
+        left:20px;
+        font-size:13px;
+        bottom: 85px;
+    }
+    #slatexto2{
+        left:220px;
+        font-size:13px;
+        bottom: 65px;
+    }
+    #slatexto3{
+        left:417px;
+        font-size:13px;
+        bottom: 85px;
+    }
+    .sla{
+        margin-left: 57px;
+        width: 60px;
+        height:60px;
+    }
+    .sla2{
+        margin-left: 262px;
+        width: 60px;
+        height:60px;
+        margin-top: -60px; 
+    }
+    .sla3{
+        margin-left: 465px;
+        width: 60px;
+        height:60px;
+        margin-top: -56px; 
+    }
+    #carinha{
+        margin-left: -2px;
+        margin-top: -2px;
+        width: 90px;
+    }
+     
+    #pessoinha{
+        margin-left: -5px;
+        margin-top: -5px;
+        width: 90px;
+    }
+    
+    #itenzinho{
+        margin-left: -10px;
+        margin-top: -12px;
+        width: 90px;
+    }
+    #saibamais1{
+        left: 35px;
+        font-size:13px;
+        bottom: 45px;
+    }
+    
+    #saibamais2{
+        left: 250px;
+        font-size:13px;
+        bottom: 45px;
+    }
+    
+    #saibamais3{
+        left: 445px;
+        font-size:13px;
+        bottom: 45px;
+    }
+    #msg{
+        margin-left: 35.8%;
+        font-size:13px;
+    }
+}
+
+@media(max-width: 615px){
+    footer p{
+        opacity: 0;
+    }
+}
+
+@media(max-width: 594px){
+    .div{
+        height: 200px;
+        width: 200px;
+        margin-left: 10%;
+    }
+    .div.primeira{
+        margin-left: 18%;
+    }
+    #slatexto1{
+        left:20px;
+        font-size:13px;
+        bottom: 85px;
+    }
+    #slatexto2{
+        left:175px;
+        font-size:13px;
+        bottom: 65px;
+    }
+    #slatexto3{
+        left: 350px;
+        font-size:13px;
+        bottom: 85px;
+    }
+    .sla{
+        margin-left: 57px;
+        width: 60px;
+        height:60px;
+    }
+    .sla2{
+        margin-left: 220px;
+        width: 60px;
+        height:60px;
+        margin-top: -60px; 
+    }
+    .sla3{
+        margin-left: 400px;
+        width: 60px;
+        height:60px;
+        margin-top: -56px; 
+    }
+    #carinha{
+        margin-left: -2px;
+        margin-top: -2px;
+        width: 90px;
+    }
+     
+    #pessoinha{
+        margin-left: -5px;
+        margin-top: -5px;
+        width: 90px;
+    }
+    
+    #itenzinho{
+        margin-left: -10px;
+        margin-top: -12px;
+        width: 90px;
+    }
+    #saibamais1{
+        left: 35px;
+        font-size:12px;
+        bottom: 45px;
+    }
+    
+    #saibamais2{
+        left: 210px;
+        font-size:12px;
+        bottom: 45px;
+    }
+    
+    #saibamais3{
+        left: 390px;
+        font-size:12px;
+        bottom: 45px;
+    }
+    #msg{
+        margin-left: 35.8%;
+        font-size:13px;
+    }
+}
+
+@media(max-width: 550px){
+    .div{
+        height: 200px;
+        width: 200px;
+        margin-left: 7.5%;
+    }
+    #consulta p{
+        font-size: 15px;
+        top: 17px;
+        left: 25px;
+    }
+    #consulta button{
+        left: 270px;
+    }
+    .div.primeira{
+        margin-left: 16%;
+        margin-right: -36px;
+    }
+    
+
+}
+
+@media(max-width: 520px){
+    .div{
+        height: 200px;
+        width: 200px;
+        margin-left: 10%;
+    }
+    #slatexto3{
+        left: 340px;
+        font-size:13px;
+        bottom: 85px;
+    }
+    .div{
+        height: 190px;
+        width: 200px;
+        margin-left: 30%;
+        top: 4px;
+    }
+    .div.primeira{
+        margin-left: 36%;
+    }
+    .primeira h2{
+        font-size: 15px;
+        margin-top: -10px;
+    }
+    .segunda h2{
+        font-size: 15px;
+        margin-top: -10px;
+    }
+    .segunda{
+        margin-top: -10px;
+    }
+    #botoes{
+        opacity: 0;
+        cursor: none;
+        pointer-events: none;
+        left: 0;
+    }
+    #botoeslec{
+        opacity: 0;
+        cursor: none;
+        pointer-events: none;
+        left: 0;
+    }
+    
+}
+
+@media(max-width: 517px){
+    .div{
+        height: 190px;
+        width: 200px;
+        margin-left: 30%;
+        top: 4px;
+    }
+    .primeira h2{
+        font-size: 15px;
+        margin-top: -10px;
+    }
+    .segunda h2{
+        font-size: 15px;
+        margin-top: -10px;
+    }
+    .segunda{
+        margin-top: -10px;
+    }
+    #botoes{
+        opacity: 0;
+        cursor: none;
+        pointer-events: none;
+        left: 0;
+    }
+    #botoeslec{
+        opacity: 0;
+        cursor: none;
+        pointer-events: none;
+        left: 0;
+    }
+    #divbranca{
+        height: 700px;
+    }
+    #slatexto1{
+        left: 180px;
+        font-size:13px;
+        bottom: 500px;
+    }
+    #slatexto2{
+        left:175px;
+        font-size:13px;
+        bottom: 270px;
+    }
+    #slatexto3{
+        left: 170px;
+        font-size:13px;
+        bottom: 80px;
+    }
+    .sla{
+        margin-left: 220px;
+        width: 60px;
+        height:60px;
+    }
+    .sla2{
+        margin-left: 220px;
+        width: 60px;
+        height:60px;
+        margin-top: 150px; 
+    }
+    .sla3{
+        margin-left: 220px;
+        width: 60px;
+        height:60px;
+        margin-top: 150px; 
+    }
+    #carinha{
+        margin-left: -2px;
+        margin-top: -2px;
+        width: 90px;
+    }
+     
+    #pessoinha{
+        margin-left: -5px;
+        margin-top: -5px;
+        width: 90px;
+    }
+    
+    #itenzinho{
+        margin-left: -10px;
+        margin-top: -12px;
+        width: 90px;
+    }
+    #saibamais1{
+        left: 210px;
+        font-size:12px;
+        bottom: 470px;
+    }
+    
+    #saibamais2{
+        left: 210px;
+        font-size:12px;
+        bottom: 240px;
+    }
+    
+    #saibamais3{
+        left: 210px;
+        font-size:12px;
+        bottom: 55px;
+    }
+}

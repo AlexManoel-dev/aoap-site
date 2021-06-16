@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="https://api.staticforms.xyz/submit" method="post">
+        <!-- Replace with accesKey sent to your email -->
+        <input type="hidden" name="accessKey" value="4c2f43b1-6ab6-4d76-9863-195a474ad456"> <!-- Required -->
+        <input type="hidden" name="redirectTo"   value="http://127.0.0.1:5501/contato/contato.html">
+
+        <label for="name">Nome: </label> 
+        <input type="text" name="name"> <!-- Optional -->
+
+        <label for="email">Digite seu email: </label> 
+        <input type="text" name="email"> <!-- Optional -->
+
+        <label for="message">Digite uma mensagem: </label> 
+        <textarea name="message"></textarea> <!-- Optional -->
+
+        <button>Enviar</button>
+        
+    </form>
+</body>
+</html>

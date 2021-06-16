@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <link rel="stylesheet" href="agendamento.css">
+        <title>AOAP - Agendamento</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div class="carregando" id="carregando"><img id="gif" src="giflogo.gif"></div>
+    <div class="corpo" id="corpo">
+        <header>
+            <div id="cabecalho">
+                <img src="logo.png" alt="erro" id="logoaoap">
+                <h1 id="AOAP">Agendamento</h1>
+                <img src="menu.png" alt="erro" id="home">
+                <a href="/home/home.html" id="phome">Voltar ao Menu</a>
+            </div>
+        </header>
+        <main>
+            <div id="divfora">
+                <div id="hospitais">
+                    <h2 id="titulo1">Hospitais</h2>
+                    <hr id="hrhospitais">
+                    <form id="posicionar">
+                        <ul class="listahospitais" id="ulhospitais">
+                            <li class="listahospitais haoc" id="botao1">
+                              <input name="hospitaisbutton" type="radio" id="hhaoc" onclick="testar()">
+                              <label for="hhaoc">HAOC</label>
+                            </li>
+                          
+                            <li class="listahospitais dia" id="botao2">
+                              <input name="hospitaisbutton" type="radio" id="hdia" onclick="testar2()">
+                              <label for="hdia">Hospital Dia</label>
+                            </li>
+                          
+                            <li class="listahospitais mini" id="botao3">
+                              <input name="hospitaisbutton" type="radio" id="hmini">
+                              <label for="hmini">Mini Hospital</label>
+                            </li>
+                          </ul>
+                          <h2 id="titulo2">Especialidades</h2>
+                    </form>
+                </div>
+                <div id="especialidades">
+                    
+                        <ul class="listahospitais2" id="ulhospitais2">
+                            <li class="listaespecialidades" id="botao1">
+                              <input name="especialidadesbutton" type="radio" id="psiquiatra">
+                              <label for="psiquiatra">Psiquiatra</label>
+                            </li>
+                          
+                            <li class="listaespecialidades" id="botao2">
+                              <input name="especialidadesbutton" type="radio" id="acunputura" >
+                              <label for="acunputura" >Acunputura</label>
+                            </li>
+                          
+                            <li class="listaespecialidades" id="botao3" >
+                              <input name="especialidadesbutton" type="radio" id="cardiologia" >
+                              <label for="cardiologia" id="cardiologia" >Cardiologia</label>
+                            </li>
+                            <li class="listaespecialidades" id="botao3">
+                                <input name="especialidadesbutton" type="radio" id="dermatologia">
+                                <label for="dermatologia">Dermatologia</label>
+                              </li>
+                              <li class="listaespecialidades" id="botao3">
+                                <input name="especialidadesbutton" type="radio" id="infectologia">
+                                <label for="infectologia">Infectologia</label>
+                              </li>
+                              <li class="listaespecialidades" id="botao3">
+                                <input name="especialidadesbutton" type="radio" id="ortopedia">
+                                <label for="ortopedia">Ortopedia</label>
+                                <li class="listaespecialidades" id="botao3">
+                                    <input name="especialidadesbutton" type="radio" id="endocrinologia">
+                                    <label for="endocrinologia">Endocrinologia</label>
+                                  </li>
+                                  <li class="listaespecialidades" id="botao3">
+                                    <input name="especialidadesbutton" type="radio" id="neurologia">
+                                    <label for="neurologia">Neurologia</label>
+                                  </li>
+                                  <li class="listaespecialidades" id="botao3">
+                                    <input name="especialidadesbutton" type="radio" id="homeopatia">
+                                    <label for="homeopatia">Homeopatia</label>
+                                </li>
+                                    
+                                          
+                          </ul>
+                          <ul>
+                            <li class="listaespecialidades2" id="botao29">
+                                <input name="especialidadesbutton" type="radio" id="oncologia">
+                                <label for="oncologia">Oncologia</label>
+                            </li>
+                                <li class="listaespecialidades2" id="botao30">
+                                    <input name="especialidadesbutton" type="radio" id="nefrologia">
+                                    <label for="nefrologia">Nefrologia</label>
+                                  </li>
+                                  <li class="listaespecialidades2" id="botao31">
+                                    <input name="especialidadesbutton" type="radio" id="cirurgia">
+                                    <label for="cirurgia">Cirurgia</label>
+                                  </li>
+                                  <li class="listaespecialidades2" id="botao32">
+                                    <input name="especialidadesbutton" type="radio" id="reumatologia">
+                                    <label for="reumatologia">Reumatologia</label>
+                                </li>
+                                <li class="listaespecialidades2" id="botao33">
+                                    <input name="especialidadesbutton" type="radio" id="otorrino">
+                                    <label for="otorrino">Otorrino</label>
+                                </li>
+                                <li class="listaespecialidades2" id="botao34">
+                                    <input name="especialidadesbutton" type="radio" id="pneumologia">
+                                    <label for="pneumologia">Pneumologia</label>
+                                </li>
+                                <li class="listaespecialidades2" id="botao35">
+                                    <input name="especialidadesbutton" type="radio" id="urologia">
+                                    <label for="urologia">Urologia</label>
+                                </li>
+                                <li class="listaespecialidades2" id="botao36">
+                                    <input name="especialidadesbutton" type="radio" id="oftamologia">
+                                    <label for="oftamologia">Oftamologia</label>
+                                </li>
+
+                          </ul>
+                    
+                </div>    
+                <iframe id="dados">
+
+                </iframe>
+            </div>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        </main>
+        <script src="agendamento.js"></script>
+        <script src="/Doenças/doenças.js"></script>
+    </div>
+    </body>
+</html>

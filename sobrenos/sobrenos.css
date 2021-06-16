@@ -1,0 +1,1358 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300;1,500&display=swap');
+header{
+    background-color: #4169E1;
+    width: 100%;
+    height: 120px;
+    
+} 
+.corpo{
+    display: none;
+}
+.carrregando{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    
+    
+}
+::-webkit-scrollbar{
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-thumb{
+    background-color: #5683d6ea;
+    border-radius: 30px;
+}
+#gif{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+body{
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#logo{
+    width: 110px;
+    height: 90px;
+    position: absolute;
+    top: 15px;
+    left: 25px;
+}
+#home{
+    position: absolute;
+    height: 40px;
+    right: 70px;
+    top: 35px;
+}
+#voltar:hover{
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1.03);
+    transform: scale(1.03);
+
+    
+}
+#voltar{
+    position: absolute;
+    height: 20px;
+    right: 32px;
+    top: 76px;
+    font-family: 'Prompt';
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    text-decoration:  none;
+}
+
+#linha1{
+    position: absolute;
+    height: 1115px;
+    border-right: solid #4169E1 3px;
+    border-left: solid #4169E1 3px;
+    border-top: 0;
+    border-bottom: 0;
+    left: 25%;
+    border-radius: 3px;
+    width: 50%;
+}
+
+#texto{
+    font-family: 'Roboto';
+    text-align: justify;
+    margin-left: 22px;
+    margin-right: 22px;
+    font-size: 28px;
+    color: rgba(20, 19, 19, 0.836);
+}
+
+#sobrenos{
+    position: absolute;
+    top: 2px;
+    left: 44%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.8rem;
+    color: white;  
+}
+
+.fotos{
+    width: 20%;
+    height: 23%;
+    border-radius: 17px;
+}
+
+#computador1{
+    position: absolute;
+    left: 3%;
+    top: 17%;
+}
+
+#hospital1{
+    position: absolute;
+    right: 3%;
+    bottom: 33%;
+}
+#computador2{
+    position: absolute;
+    left: 3%;
+    bottom: 5%;
+}
+#hospital2{
+    position: absolute;
+    right: 3%;
+    top: 98%;
+}
+
+#linha{    
+    width: 90%;
+}
+#alex{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 200px;
+    left: 13%; 
+}
+#emy{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 200px;
+    left: 33%;
+}
+#gui{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 200px;
+    left: 53%;
+}
+#jaja{
+    position: absolute;
+    width: 300px;
+    height: 300px;    
+    border-radius: 200px;
+    left: 73%;
+}
+#desevolvedores{
+    position: absolute;
+    left: 46.3%;
+    font-size: 20px;
+    margin-top: -73px;
+    font-family: 'Prompt';
+}
+#imagem1{
+    position: absolute;
+    width: 200px;
+    margin-top: 350px;
+    left: 15.7%;
+    border: solid 1px;
+}
+#imagem2{
+    position: absolute;
+    width: 200px;
+    margin-top: 350px;
+    left: 35.7%;   
+    border: solid 1px;
+}
+#imagem3{
+    position: absolute;
+    width: 200px;
+    margin-top: 350px;
+    left: 55.8%;
+    border: solid 1px;
+}
+#imagem4{
+    position: absolute;
+    width: 200px;
+    margin-top: 350px;
+    left: 76.5%;
+    border: solid 1px;
+}
+.nomes{
+    position: absolute;
+    margin-top: 392px;
+    font-size: 1.3rem;
+    font-family: 'Poppins';
+    color: black;
+    font-weight: bolder;
+
+}
+#nomealex{
+    left: 12.4%;
+}
+#nomeemy{
+    left: 34.8%;
+}
+#nomegui{
+    left: 54.1%;
+}
+#nomejaja{
+    left: 76%;
+}
+
+.instas{
+    width: 60px;
+    height: 60px;
+    margin-top: -240px;
+}
+
+.instas:hover{
+    margin-top: -243px;
+    cursor: pointer;
+    transition: all linear 0.1s;
+}
+
+#instaalex{
+    position: absolute;
+    left: 19%;
+}
+
+#instaemy{
+    position: absolute;
+    left: 39.1%;    
+}
+#instagui{
+    position: absolute;
+    left: 59.3%;
+}
+#instajaja{
+    position: absolute;
+    left: 80.5%;
+}
+
+
+@media(max-width:2560px){
+    .fotos{
+        width: 18%;
+        height: 18%;
+        border-radius: 17px;
+    }
+    #computador1{
+        
+        top:12%;
+    }
+    #hospital1{
+        
+        
+        bottom: 62%;
+    }
+    #computador2{
+        
+        bottom:38%;
+    }
+    #hospital2{
+        
+        top: 53%;
+    }
+    .instas{
+        
+        margin-left: -1.2%;
+    }
+    #imagem1{
+        
+        left: 14.8%;
+        
+    }
+    #imagem3{
+        left: 55.4%;
+            }
+    #imagem4{
+left: 76.4%;
+    }
+    #alex{
+        
+        left: 12.8%; 
+    }
+    #emy{
+        
+        left: 34%;
+    }
+    #gui{
+        
+        left: 53.5%;
+    }
+    #jaja{
+        
+        left: 74.1%;
+    }
+    #instaemy{
+        left: 39.7%;
+    }
+    #instajaja{
+        
+        left: 80.8%;
+    }
+    #instagui{
+        position: absolute;
+        left: 59.7%;
+    }
+}
+@media(max-width:2108px){
+    #instagui{
+        position: absolute;
+        left: 60.2%;
+    }
+    .fotos{
+        width: 16%;
+        height: 16%;
+        border-radius: 17px;
+    }
+    #computador1{
+        
+        top:12%;
+    }
+    #hospital1{
+        
+        
+        bottom: 62%;
+    }
+    #computador2{
+        
+        bottom:38%;
+    }
+    #hospital2{
+        
+        top: 53%;
+    }
+}
+@media(max-width:2008px){
+    #instagui{
+        position: absolute;
+        left: 60.4%;
+    }
+    .fotos{
+        width: 17.9%;
+        height: 15.9%;
+        border-radius: 17px;
+    }
+    #computador1{
+        
+        top:12%;
+    }
+    #hospital1{
+        
+        
+        bottom: 62%;
+    }
+    #computador2{
+        
+        bottom:38%;
+    }
+    #hospital2{
+        
+        top: 53%;
+    }
+
+
+#instaalex{
+    left: 19.5%;
+}
+#instaemy{
+    left: 40.5%;
+}
+#instajaja{
+    
+    left: 81.2%;
+}
+
+}
+
+@media(max-width:1738px){
+    #linha1{
+        
+        height: 1250px;
+    }
+    #linha{
+        margin-top: 10%;
+    }
+    
+    
+    #instagui{
+        position: absolute;
+        left: 61%;
+    }
+    .fotos{
+        width: 19%;
+        height: 15%;
+        border-radius: 17px;
+    }
+    #computador1{
+        
+        top:12%;
+    }
+    #hospital1{
+        
+        
+        bottom: 58%;
+    }
+    #computador2{
+        
+        bottom:38%;
+    }
+    #hospital2{
+        
+        top: 59%;
+    }
+
+
+#instaalex{
+    left: 20%;
+}
+#instaemy{
+    left: 40.9%;
+}
+#instajaja{
+    
+    left: 81.9%;
+}
+#nomealex{
+    left: 11.2%;
+}
+#alex{
+        width: 220px;
+        height: 220px;
+    left: 14.2%; 
+    margin-top: 30px;
+}
+#emy{
+    width: 220px;
+    height: 220px;
+    left: 35.6%;
+    margin-top: 30px;
+}
+#gui{
+    width: 220px;
+    height: 220px;
+    left: 55%;
+    margin-top: 30px;
+}
+#jaja{
+    width: 220px;
+    height: 220px;
+    left: 75.5%;
+    margin-top: 30px;
+}
+
+
+}
+
+@media(max-width:1550px){
+    
+    #linha1{
+        
+        height: 1480px;
+    }
+    #linha{
+        margin-top: 26.5%;
+    }
+    #alex{
+        
+    margin-top: 70px;
+}
+.fotos{
+    width: 17.8%;
+    height: 12%;
+    border-radius: 17px;
+}
+#computador1{
+    
+    top:12%;
+}
+#hospital1{
+    
+    
+    bottom: 56%;
+}
+#computador2{
+    
+    bottom:37%;
+}
+#hospital2{
+    
+    top: 77%;
+}
+#emy{
+    
+    margin-top: 70px;
+}
+#gui{
+    
+    margin-top: 70px;
+}
+#jaja{
+    
+    margin-top: 70px;
+}
+#desevolvedores{
+    
+    
+    margin-top: -7px;
+    
+}
+.nomes{
+    font-size:92%;
+    margin-left: 2.1%;
+}
+#nomealex{
+    margin-left: 2.8%;
+}
+#instaemy{
+    left: 41.5%;
+}
+}
+
+@media(max-width: 1034px) {
+    #sobrenos{
+        left: 42%;
+    }
+}
+
+@media(max-width:1307px){
+    #linha1{
+        
+        height: 1780px;
+    }
+    #linha{
+        margin-top: 58.5%;
+    }
+    #mexer{
+       
+        width: 100%;
+        margin-left:-50px;
+        position: absolute;
+    }
+    
+}
+@media(max-width:1202px){
+   
+   #texto{
+    font-size: 27px;
+   }
+    #desevolvedores{
+    
+    
+        margin-top: 33px;
+        
+    }
+   
+    #linha{
+        margin-top: 62.5%;
+        margin-bottom: -18px;
+    }
+    #alex{
+        width: 180px;
+        height: 180px;
+    left: 13.2%; 
+    margin-top: 120px;
+}
+#emy{
+    width: 180px;
+        height: 180px;
+    left: 36%;
+    margin-top: 120px;
+}
+#gui{
+    width: 180px;
+        height: 180px;
+    left: 56%;
+    margin-top: 120px;
+}
+#jaja{
+    width: 180px;
+        height: 180px;
+    left: 76.5%;
+    margin-top: 120px;
+}
+.nomes{
+    font-size:88%;
+    margin-left: 2%;
+    
+}
+#nomealex{
+    margin-left: 1%;
+}
+#instaemy{
+    left: 41.5%;
+}
+#imagem1{
+    
+    width: 160px;
+    margin-top: 360px;
+    left: 14.3%;
+    
+}
+#imagem2{
+    
+    width: 160px;
+    margin-top: 360px;
+    left: 36.8%;   
+    
+}
+#imagem3{
+    
+    width: 160px;
+    margin-top: 360px;
+    left: 56.8%;
+    
+}
+#imagem4{
+    
+    width: 160px;
+    margin-top: 360px;
+    left: 77.7%;
+    
+}
+.instas{
+    width: 55px;
+    height: 55px;
+    margin-top: -262px;
+    
+}
+#instaalex{
+    left: 19.8%;
+}
+#instaemy{
+    left: 42.3%;
+}
+#instagui{
+    left: 62.8%;
+}
+.fotos{
+    width: 19%;
+    height: 10%;
+    border-radius: 17px;
+}
+#computador1{
+    
+    top:12%;
+}
+#hospital1{
+    
+    
+    bottom: 52%;
+}
+#computador2{
+    
+    bottom:25%;
+}
+#hospital2{
+    
+    top: 92%;
+}
+}
+
+@media(max-width:1024px){
+    #linha1{
+        
+        height: 2180px;
+    }
+    #linha{
+        margin-top: 111.5%;
+    }
+    .fotos{
+        width: 18%;
+        height: 8.9%;
+        border-radius: 17px;
+    }
+    #computador1{
+        
+        top:12%;
+    }
+    #hospital1{
+        
+        
+        bottom: 52%;
+    }
+    #computador2{
+        
+        bottom:25%;
+    }
+    #hospital2{
+        
+        top: 92%;
+    }
+}
+
+
+@media(max-width:956px){
+    #desevolvedores{
+        left: 44.8%;
+        font-size: 98%;
+    }
+    #alex{
+        width: 120px;
+        height: 120px;
+    left: 13.2%; 
+    margin-top: 120px;
+}
+#emy{
+    width: 120px;
+        height: 120px;
+    left: 36%;
+    margin-top: 120px;
+}
+#gui{
+    width: 120px;
+        height: 120px;
+    left: 56%;
+    margin-top: 120px;
+}
+#jaja{
+    width: 120px;
+    height: 120px;
+    left: 76.5%;
+    margin-top: 120px;
+}
+#imagem1{
+    
+    width: 110px;
+    margin-top: 280px;
+    left: 13.6%;
+    
+}
+#imagem2{
+    
+    width: 110px;
+    margin-top: 280px;
+    left: 36.4%;   
+    
+}
+#imagem3{
+    
+    width: 110px;
+    margin-top: 280px;
+    left: 56.4%;
+    
+}
+#imagem4{
+    
+    width: 110px;
+    margin-top: 280px;
+    left: 77.7%;
+    
+}
+.nomes{
+    font-size:68%;
+    margin-left: 1%;
+    margin-top: 310px;
+}
+#nomealex{
+    margin-left: -0.9%;
+}
+#nomejaja{
+    margin-left: 1.6%;
+}
+.instas{
+    width: 40px;
+    height: 40px;
+    margin-top: -362px;
+    
+}
+#instaalex{
+    left: 18.2%;
+}
+#instaemy{
+    left: 41.3%;
+}
+#instagui{
+    left: 61.6%;
+}
+#instajaja{
+    left: 82.8%;
+}
+#linha{
+    margin-bottom: -50px;
+}
+
+#mexer{
+       
+    width: 100%;
+    margin-left:-5px;
+    position: absolute;
+    
+}
+}
+@media(max-width:902px){
+    #linha1{
+        
+        height: 2420px;
+    }
+    #linha{
+        margin-top: 154.5%;
+    }
+    .fotos{
+        width: 21%;
+        height: 9.2%;
+        border-radius: 17px;
+    }
+    #computador1{
+        
+        top:12%;
+    }
+    #hospital1{
+        
+        
+        bottom: 47%;
+    }
+    #computador2{
+        
+        bottom:14%;
+    }
+    #hospital2{
+        
+        top: 116%;
+    }
+}
+
+@media(max-width: 824px) {
+    #sobrenos{
+        left: 40%;
+    }
+}
+
+@media(max-width:810px){
+    #linha1{
+        
+        height: 2680px;
+    }
+    #linha{
+        margin-top: 212.2%;
+    }
+    #instaemy{
+        left: 42.3%;
+    }
+    #instagui{
+        left: 62%;
+    }
+    .fotos{
+        width:21.4%;
+        height: 9%;
+        border-radius: 17px;
+    }
+    #computador1{
+        
+        top:12%;
+    }
+    #hospital1{
+        
+        
+        bottom: 33%;
+    }
+    #computador2{
+        
+        bottom:-8%;
+    }
+    #hospital2{
+        
+        top: 142%;
+    }
+}
+
+@media(max-width: 731px) {
+    #sobrenos{
+        left: 37.5%;
+    }
+}
+
+@media(max-width:727px){
+    .fotos{
+        width:20.4%;
+        height: 7%;
+        border-radius: 17px;
+    }
+    #computador1{
+        
+        top:12%;
+    }
+    #hospital1{
+        
+        
+        bottom: 33%;
+    }
+    #computador2{
+        
+        bottom:-8%;
+    }
+    #hospital2{
+        
+        top: 142%;
+    }
+    #linha1{
+        
+        height: 2490px;
+    }
+    #linha{
+        margin-top: 199.5%;
+        margin-bottom: -74px;
+    }
+    #texto{
+        font-size: 25.7px;
+    }
+    #desevolvedores{
+        left: 43.6%;
+        font-size: 98%;
+        margin-top: 40px;
+    }
+    #alex{
+        width: 96.3px;
+        height: 96.3px;
+    left: 13.2%; 
+    margin-top: 120px;
+}
+#emy{
+    width: 96.3px;
+        height: 96.3px;
+    left: 35.4%;
+    margin-top: 120px;
+}
+#gui{
+    width: 96.3px;
+        height: 96.3px;
+    left: 56%;
+    margin-top: 120px;
+}
+#jaja{
+    width: 96.3px;
+        height: 96.3px;
+    left: 77%;
+    margin-top: 120px;
+}
+#imagem1{
+    
+    width: 88px;
+    margin-top: 243px;
+    left: 13.5%;
+    
+}
+#imagem2{
+    
+    width: 88px;
+    margin-top: 243px;
+    left: 35.8%;   
+    
+}
+#imagem3{
+    
+    width: 88px;
+    margin-top: 243px;
+    left: 56.7%;
+    
+}
+#imagem4{
+    
+    width: 88px;
+    margin-top: 243px;
+    left: 77.7%;
+    
+}
+.nomes{
+    font-size:55.8%;
+    margin-left: 1%;
+    margin-top: 266px;
+}
+#nomealex{
+    margin-left: -0.9%;
+}
+#nomeemy{
+    margin-left: 0.4%;
+}
+#nomejaja{
+    margin-left: 1.5%;
+}
+.instas{
+    width: 30px;
+    height: 30px;
+    margin-top: -411px;
+    
+}
+#instaalex{
+    left: 18.2%;
+}
+#instaemy{
+    left: 40.7%;
+}
+#instagui{
+    left: 61.9%;
+}
+#instajaja{
+    left: 82.8%;
+}
+}
+@media(max-width:678px){
+    #linha1{
+        
+        height: 2650px;
+    }
+    #linha{
+        margin-top: 246.5%;
+        margin-bottom: -74px;
+    }
+    #texto{
+        font-size: 25px;
+    }
+    #instaemy{
+        left: 41%;
+    }
+    #instajaja{
+        left: 83.2%;
+    }
+    .fotos{
+        width:20.2%;
+        height: 6.8%;
+        border-radius: 17px;
+    }
+    #computador1{
+        
+        top:12%;
+    }
+    #hospital1{
+        
+        
+        bottom: 33%;
+    }
+    #computador2{
+        
+        bottom:-8%;
+    }
+    #hospital2{
+        
+        top: 142%;
+    }
+}
+
+@media(max-width: 623px) {
+    #sobrenos{
+        left: 36%;
+    }
+}
+
+@media(max-width: 618px){
+    #sobrenos{
+        opacity: 0;
+    }
+    #home{
+        opacity: 0;
+    }
+    #voltar{
+        opacity: 0;
+        pointer-events: none;
+    }
+    #logo{
+        left: 40%;
+    }
+}
+
+    @media(max-width:614px){
+        #linha1{
+            
+            height: 2670px;
+        }
+        #linha{
+            margin-top: 263.5%;
+            margin-bottom: -74px;
+        }
+        #texto{
+            font-size: 23.9px;
+        }
+        #instaemy{
+            left: 41.6%;
+        }
+        #instajaja{
+            left: 83.5%;
+        }
+        #instaalex{
+            left: 19.6%;
+        }
+        #instagui{
+            left: 62.5%;
+        }
+    }
+    @media(max-width:580px){
+        #linha1{
+            
+            height: 2800px;
+        }
+        #linha{
+           margin-top: 296.5%;
+            margin-bottom: -74px;
+        }
+        #texto{
+            font-size: 23.8px;
+        }
+    }
+    @media(max-width:566px){
+        .fotos{
+            width:18.2%;
+            height: 1.8%;
+            border-radius: 17px;
+        }
+        #computador1{
+            
+            top:12%;
+        }
+        #hospital1{
+            
+            
+            bottom: 33%;
+        }
+        #computador2{
+            
+            bottom:2%;
+        }
+        #hospital2{
+            
+            top: 128%;
+        }
+        #linha1{
+            
+            height: 2980px;
+        }
+        #linha{
+           margin-top: 286.5%;
+            margin-bottom: -74px;
+        }
+        #texto{
+            font-size: 24.1px;
+        }
+        #desevolvedores{
+            left: 43.6%;
+            font-size: 98%;
+            margin-top: 40px;
+        }
+        #alex{
+            width: 85.3px;
+            height: 85.3px;
+        left: 13.2%; 
+        margin-top: 120px;
+    }
+    #emy{
+        width: 85.3px;
+            height: 85.3px;
+        left: 35.4%;
+        margin-top: 120px;
+    }
+    #gui{
+        width: 85.3px;
+            height: 85.3px;
+        left: 56%;
+        margin-top: 120px;
+    }
+    #jaja{
+        width: 85.3px;
+            height: 85.3px;
+        left: 77%;
+        margin-top: 120px;
+    }
+    #imagem1{
+        
+        width: 80px;
+        margin-top: 233px;
+        left: 13.5%;
+        
+    }
+    #imagem2{
+        
+        width: 80px;
+        margin-top: 233px;
+        left: 35.8%;   
+        
+    }
+    #imagem3{
+        
+        width: 80px;
+        margin-top: 233px;
+        left: 56.7%;
+        
+    }
+    #imagem4{
+        
+        width: 80px;
+        margin-top: 233px;
+        left: 77.7%;
+        
+    }
+    .nomes{
+        font-size:47%;
+        margin-left: 1%;
+        margin-top: 256px;
+    }
+    #nomealex{
+        margin-left: -0.9%;
+    }
+    #nomeemy{
+        margin-left: 0.8%;
+    }
+    #nomejaja{
+        margin-left: 1.9%;
+    }
+
+    }
+    @media(max-width:566px){
+        #linha1{
+            
+            height: 2280px;
+        }
+        #linha{
+            margin-top: 228.5%;
+            margin-bottom: -92px;
+        }
+        #texto{
+            font-size: 20.1px;
+        }
+        #desevolvedores{
+            left: 42.2%;
+            font-size: 93%;
+            margin-top: 53px;
+        }
+        .instas{
+            width: 28px;
+            height: 28px;
+            margin-top: -426px;
+            
+        }
+    }
+    @media(max-width:487px){
+        #linha1{
+            
+            height: 2320px;
+        }
+        #linha{
+            margin-top: 248.5%;
+            margin-bottom: -92px;
+        }
+        #texto{
+            font-size: 19.6px;
+        }
+    }
+    @media(max-width:470px){
+        #linha1{
+            
+            height: 2460px;
+        }
+        #linha{
+            margin-top: 286.5%;
+            margin-bottom: -92px;
+        }
+        #texto{
+            font-size: 19.6px;
+        }
+        #alex{
+            width: 72.3px;
+            height: 72.3px;
+        left: 13.2%; 
+        margin-top: 120px;
+    }
+    #emy{
+        width: 72.3px;
+        height: 72.3px;
+        left: 35.4%;
+        margin-top: 120px;
+    }
+    #gui{
+        width: 72.3px;
+        height: 72.3px;
+        left: 56%;
+        margin-top: 120px;
+    }
+    #jaja{
+        width: 72.3px;
+        height: 72.3px;
+        left: 77%;
+        margin-top: 120px;
+    }
+    #imagem1{
+        
+        width: 62px;
+        margin-top: 223px;
+        left: 13.5%;
+        
+    }
+    #imagem2{
+        
+        width: 62px;
+        margin-top: 223px;
+        left: 35.8%;   
+        
+    }
+    #imagem3{
+        
+        width: 62px;
+        margin-top: 223px;
+        left: 56.9%;
+        
+    }
+    #imagem4{
+        
+        width: 62px;
+        margin-top: 223px;
+        left: 78.4%;
+        
+    }
+    .nomes{
+        font-size:38.8%;
+        margin-left: 1%;
+        margin-top: 239px;
+    }
+    #nomealex{
+        margin-left: -0.9%;
+    }
+    #nomeemy{
+        margin-left: 0.5%;
+    }
+    #nomejaja{
+        margin-left: 2%;
+    }
+    .instas{
+        width: 22px;
+        height: 22px;
+        margin-top: -456px;
+        
+    }
+}
+    @media(max-width:443px){
+        #linha1{
+            
+            height: 2025px;
+        }
+        #linha{
+            margin-top: 209.5%;
+            margin-bottom: -104px;
+        }
+        #texto{
+            font-size: 17.6px;
+        }
+        #desevolvedores{
+            left: 40.4%;
+            font-size: 91%;
+            margin-top: 53px;
+        }
+
+    }

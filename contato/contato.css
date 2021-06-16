@@ -1,0 +1,903 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap');
+
+.carrregando{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+#gif{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+::-webkit-scrollbar{
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-thumb{
+    background-color: #5683d6ea;
+    border-radius: 30px;
+}
+
+.corpo{
+    display: none;
+}
+
+html{
+    /*A cada 1 rem será considerado 10px*/
+    font-size: 62.5%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 1.6rem;
+}
+
+header{
+    background-color: #4169E1;
+    
+}
+
+header #cabecalho{
+    width: 100%;
+    padding: 40px 0%;
+    height: 30px;
+    color: white;
+    text-align: center;
+    font-family: 'Prompt', sans-serif;
+}
+
+#logoaoap{
+    width: 110px;
+    height: 90px;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+
+#AOAP{
+    margin-top: -7px;
+    font-size: 3.2rem;
+}
+
+.divfora{
+    width: 35.5%;
+    height: 480px;
+    border: solid blue 1px;
+    border-radius: 10px;
+    position: absolute;
+    top: 300px;
+    left: 50%;
+    transform: translate(-50%);
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family:Verdana, sans-serif;
+}
+
+.cadastro1{
+    width: 580px;
+    position: absolute;
+    top: 0;
+    color: black;
+    height: 200px;
+    left: 25%;
+}
+
+.cadastro2{
+    width: 490px;
+    position: absolute;
+    top: 200px;
+    left: 23%;
+    color: black;
+    height: 20px;
+}
+
+#area{
+    resize: none;
+    margin-top: 30px;
+    margin-left: 40px;
+    height: 50px;
+    width: 250px;
+}
+
+.divfora h1{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.2rem;
+}
+
+
+#novaconta{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+
+#esqueceusenha{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+
+#novaconta:hover{
+    text-decoration: underline;
+}
+
+#esqueceusenha:hover{
+    text-decoration: underline;
+}
+
+.links{
+    text-decoration: double;
+}
+
+.caixadetexto{
+    width: 447px;
+    padding: 30px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0);
+}
+
+.caixadetexto .input-data{
+    height: 40px;
+    width: 100%;
+    position: relative;
+}
+
+.caixadetexto .input-data input{
+    height: 100%;
+    width: 70%;
+    border: 0 none;
+    outline: 0;
+    font-size: 16px;
+    border-bottom: 2px solid silver;
+}
+
+.input-data input:focus ~ label,
+.input-data input:valid ~ label{
+    transform: translateY(-20px);
+    font-size: 15px;
+}
+
+.caixadetexto .input-data label{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    color: grey;
+    pointer-events: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: all 0.3s ease;
+}
+
+.caixadetexto .input-data .underline1{
+    position: absolute;
+    bottom: -4px;
+    height: 2px;
+    width: 316px;
+}
+
+.input-data .underline1::before{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: #4169E1;
+    transform: scaleX(0);
+    transition: 0.3s ease;
+}
+
+.input-data input:focus ~ .underline1:before,
+.input-data input:valid ~ .underline1:before{
+    transform: scaleX(1);
+}
+
+#botao{
+    width: 62%;
+    padding: 12px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    border-radius: 18px;
+    outline: 0;
+    margin-left: -6px;
+}
+.textocadastro{
+    margin-top: 100px;
+}
+
+.efeito-3{
+    background: #4169E1;
+    color: white;
+}
+
+.efeito-3:hover{
+    background: rgba(0,0,0,0);
+    color: #4169E1;
+    box-shadow: inset 0 0 0 3px #4169E1;
+    transition: all 0.3s linear;
+}
+
+#rodape{
+    background-color: #4169E1;
+    width: 100%;
+    padding: 40x 2%;
+    height: 97px;
+    color: white;
+    text-align: center;
+    margin-top: 450px;
+}
+
+#inputbottom{
+    position: absolute;
+    bottom: -130px;
+    height: 50px;
+    width: 400px;
+    left: 11%;
+}
+
+.caixadetexto2{
+    width: 447px;
+    padding: 30px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0);
+}
+
+.caixadetexto2 .input-data2{
+    height: 40px;
+    width: 100%;
+    position: relative;
+    
+}
+
+.caixadetexto2 .input-data2 input{
+    height: 100%;
+    width: 70%;
+    border: 0 none;
+    outline: 0;
+    font-size: 16px;
+    border-bottom: 2px solid silver;
+}
+
+.caixadetexto2 .input-data2 label{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    color: grey;
+    pointer-events: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: all 0.3s ease;
+}
+
+.input-data2 input:focus ~ label,
+.input-data2 input:valid ~ label{
+    transform: translateY(-20px);
+    font-size: 15px;
+}
+
+.caixadetexto2 .input-data2 .underline2{
+    position: absolute;
+    bottom: -4px;
+    height: 2px;
+    width: 316px;
+}
+
+.input-data2 .underline2::before{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: #4169E1;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+.input-data2 input:focus ~ .underline2::before,
+.input-data2 input:valid ~ .underline2::before{
+    transform: scaleX(1);
+}
+
+#home{
+    position: absolute;
+    height: 40px;
+    right: 70px;
+    top: 27px;
+}
+
+#phome:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+#phome{
+    position: absolute;
+    height: 20px;
+    right: 32px;
+    top: 65px;
+    font-family: 'Prompt';
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+#selectuf{
+    position: absolute;
+    left: 510px;
+    bottom: 35px;
+    border-radius: 6px;
+    background-color: rgb(143, 143, 229);
+    color: white;
+}
+#hrdivfora{
+    border-color: rgba(0, 0, 0, 0.623) ;
+}
+h1{
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Prompt';
+}
+#deixeduvida{
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+
+.redes{
+    width: 100px;
+    height:90px ;
+    margin-left: 60px;
+    
+}
+#cartinha{
+    position: absolute;
+    left: 15%;
+    height:41px ;
+    width: 50px;
+}
+
+#face{
+    position: absolute;
+    left: 35%;
+    height: 50px ;
+    width: 54px;
+}
+
+#insta{
+    position: absolute;
+    left: 55%;
+    height: 50px ;
+    width: 54px;
+}
+
+#wpp{
+    border-top-left-radius: 68px;
+    border-top-right-radius: 68px;
+    border-bottom-right-radius: 68px;
+    position: absolute;
+    left: 74%;
+    height:54px ;
+    width: 60px;
+}
+
+#cartinha:hover{
+    height:42px ;
+    width: 53px;
+    cursor: pointer;
+    transition: all linear 0.1s;
+}
+
+#face:hover{
+    height:52px ;
+    width: 56px;
+    cursor: pointer;
+    transition: all linear 0.1s;
+}
+
+#insta:hover{
+    height:52px;
+    width: 56px;
+    cursor: pointer;
+    transition: all linear 0.1s;
+}
+
+#wpp:hover{
+    height:56px ;
+    width: 63px;
+    cursor: pointer;
+    transition: all linear 0.1s;
+}
+
+@media(max-width:1770px){
+    .cadastro2{
+        left: 20%;
+    }
+    .cadastro1{
+        left: 22%;
+    }
+    
+}
+@media(max-width:1688px){
+    .cadastro2{
+        left: 19%;
+    }
+    .cadastro1{
+        left: 22%;
+    }
+    
+}
+@media(max-width:1573px){
+    .cadastro2{
+        left: 16%;
+    }
+    .cadastro1{
+        left: 19%;
+    }
+    
+}
+@media(max-width:1512px){
+    .cadastro2{
+        left: 15%;
+    }
+    .cadastro1{
+        left: 19%;
+    }
+    
+}
+@media(max-width:1395px){
+    .cadastro2{
+        left: 12%;
+    }
+    .cadastro1{
+        left: 15%;
+    }
+    
+}
+@media(max-width:1344px){
+    .cadastro2{
+        left: 8%;
+    }
+    .cadastro1{
+        left: 12%;
+    }
+    
+}
+@media(max-width:1248px){
+    .cadastro2{
+        left: 5%;
+    }
+    .cadastro1{
+        left: 9%;
+    }
+    
+}
+@media(max-width:1141px){
+    .cadastro2{
+        left: 3%;
+    }
+    .cadastro1{
+        left: 9%;
+    }
+    
+}
+@media(max-width:1080px){
+    .cadastro2{
+        left: -1%;
+    }
+    .cadastro1{
+        left: 3%;
+    }
+    
+}
+@media(max-width: 1024px){
+    
+    #informs{
+        left: 51.5%;
+    }
+    .redes{
+        width: 100px;
+        height: 90px ;
+        margin-left: 35px;
+    }
+}
+@media(max-width:1000px){
+    .cadastro2{
+        left: -3.5%;
+        
+    }
+    .cadastro1{
+        left: -1%;
+    }
+    
+}
+@media(max-width:966px){
+    .cadastro2{
+        left: -4.2%;
+        
+    }
+    .cadastro1{
+        left: 6.2%;
+    }
+    
+    .caixadetexto .input-data .underline1{
+        position: absolute;
+        bottom: -4px;
+        height: 2px;
+        width: 252px;
+    }
+    .caixadetexto .input-data input{
+        height: 100%;
+        width: 55%;
+    }
+    .caixadetexto2 .input-data2 .underline2{
+        position: absolute;
+        bottom: -4px;
+        height: 2px;
+        width: 252px;
+    }
+    .caixadetexto2 .input-data2 input{
+        height: 100%;
+        width: 55%;
+    }
+}
+@media(max-width:900px){
+    .cadastro2{
+        left: -8.4%;
+        
+    }
+    .cadastro1{
+        left: 1%;
+    }
+    
+    .caixadetexto .input-data .underline1{
+        position: absolute;
+        bottom: -4px;
+        height: 2px;
+        width: 252px;
+    }
+    .caixadetexto .input-data input{
+        height: 100%;
+        width: 55%;
+    }
+    .caixadetexto2 .input-data2 .underline2{
+        position: absolute;
+        bottom: -4px;
+        height: 2px;
+        width: 252px;
+    }
+    .caixadetexto2 .input-data2 input{
+        height: 100%;
+        width: 55%;
+    }
+}
+@media(max-width:868px){
+    .cadastro2{
+        left: -11%;
+        width: 210px;
+    }
+    .cadastro1{
+        left: -0.5%;
+        width: 300px;
+    }
+    #inputbottom{
+        
+        text-align: center;
+        margin-left: -22%;
+    }
+    .caixadetexto{
+        width: 280px;
+    }
+    .caixadetexto2{
+        width: 280px;
+    }
+    #ao1{
+        width:230px;
+    }
+    #deixeduvida{
+        left: 10px;
+        font-size:14px;
+    }
+    #area{
+        margin-left:38px;
+    }
+    .caixadetexto2 .input-data2 .underline2{
+        position: absolute;
+        bottom: -4px;
+        height: 2px;
+        width: 233px;
+    }
+    .caixadetexto .input-data .underline1{
+        position: absolute;
+        bottom: -4px;
+        height: 2px;
+        width: 233px;
+    }
+    
+}
+@media(max-width:861px){
+    .cadastro2{
+        left: -11%;
+        
+    }
+    .cadastro1{
+        left: -0.5%;
+    }
+    
+    
+}
+
+@media(max-width:800px){
+    .cadastro2{
+        left: -9.5%;
+        
+    }
+    #area{
+        width:210px;
+    }
+    #inputbottom{
+        
+        width: 300px;
+        left: 20.5%;
+    }
+    #deixeduvida{
+        left: -2px;
+    }
+    .cadastro1{
+        left: 3%;
+    }
+    
+    
+}
+@media(max-width:761px){
+    #ao1{
+        width:185px;
+    }
+    
+    .caixadetexto2 .input-data2 .underline2{
+        position: absolute;
+        bottom: -4px;
+        height: 2px;
+        width: 188px;
+    }
+    .caixadetexto .input-data .underline1{
+        position: absolute;
+        bottom: -4px;
+        height: 2px;
+        width: 188px;
+    }
+}
+
+@media(max-width:743px){
+    .cadastro2{
+        left: -13%;
+        
+    }
+    #area{
+        width:210px;
+    }
+    #deixeduvida{
+        left: 1px;
+        font-size: 13.5px;
+    }
+    .cadastro1{
+        left: 3%;
+    }
+    #inputbottom{
+        
+        width: 300px;
+    }
+    
+}
+@media(max-width:700px){
+    .redes{
+        margin-left:2px;
+    }
+}
+@media(max-width:681px){
+    .cadastro2{
+        left: -18.7%;
+        
+    }
+    #area{
+        width:210px;
+    }
+    #inputbottom{
+        
+        width: 300px;
+        left: 20.5%;
+    }
+    #deixeduvida{
+        left: -2px;
+    }
+    .cadastro1{
+        left: 3%;
+    }
+    
+}
+@media(max-width:653px){
+    .cadastro2{
+        left: -21.2%;
+        
+        
+    }
+    #area{
+        width:180px;
+    }
+    #area{
+        width:210px;
+    }
+    #inputbottom{
+        
+        width: 300px;
+        left: 20.5%;
+    }
+    #deixeduvida{
+        left: -2px;
+    }
+    .cadastro1{
+        left: 3%;
+    }
+    
+}
+@media(max-width:640px){
+    .cadastro2{
+        left: -16.2%;
+        
+        
+    }
+    #area{
+        width:180px;
+    }
+    
+    #inputbottom{
+        
+        width: 300px;
+        left: 15.5%;
+    }
+    #deixeduvida{
+        left: -14px;
+    }
+    .cadastro1{
+        left: 1%;
+    }
+}
+
+@media(max-width: 618px){
+    #AOAP{
+        opacity: 0;
+    }
+    #home{
+        opacity: 0;
+    }
+    #phome{
+        opacity: 0;
+        pointer-events: none;
+    }
+    #logoaoap{
+        left: 40%;
+    }
+}
+
+@media(max-width:613px){
+    .cadastro2{
+        left: -19.2%;
+        
+    }
+    #area{
+        width:180px;
+    }
+    #deixeduvida{
+        left: -11px;
+        font-size: 12.9px;
+    }
+    .cadastro1{
+        left: -0.8%;
+    }
+    #inputbottom{
+        
+        width: 300px;
+    }
+    
+}
+@media(max-width:594px){
+    .cadastro2{
+        left: -19.8%;
+        
+    }
+    #area{
+        width:168px;
+    }
+    #deixeduvida{
+        left: -9px;
+        font-size: 12px;
+    }
+    .cadastro1{
+        left: -3%;
+    }
+    #inputbottom{
+        
+        width: 290px;
+    }
+    
+    
+}
+@media(max-width:564px){
+    #ao1{
+        width:154px;
+    }
+    
+    .caixadetexto2 .input-data2 .underline2{
+        position: absolute;
+        bottom: -4px;
+        height: 2px;
+        width: 157px;
+    }
+    .caixadetexto .input-data .underline1{
+        position: absolute;
+        bottom: -4px;
+        height: 2px;
+        width: 157px;
+    }
+}
+@media(max-width:552px){
+    .cadastro2{
+        left: -22%;
+        
+    }
+    #area{
+        width:160px;
+    }
+    #deixeduvida{
+        left: -3px;
+        font-size: 11px;
+    }
+    .cadastro1{
+        left: -7%;
+    }
+    #inputbottom{
+        left: 16%;
+        width: 280px;
+    }
+    
+}
+@media(max-width:531px){
+    .cadastro2{
+        left: -25%;
+        
+    }
+    #area{
+        width:160px;
+    }
+    #deixeduvida{
+        left: -3px;
+        font-size: 11px;
+    }
+    .cadastro1{
+        left: -9.5%;
+    }
+    #inputbottom{
+        left: 15.6%;
+        width: 280px;
+    }
+    
+}
+@media(max-width:505px){
+    .cadastro2{
+        left: -27.8%;
+        
+    }
+    #area{
+        width:160px;
+    }
+    #deixeduvida{
+        left: -6px;
+        font-size: 11px;
+    }
+    .cadastro1{
+        left: -9.5%;
+    }
+    #inputbottom{
+        left: 15.6%;
+        width: 280px;
+    }
+    
+}

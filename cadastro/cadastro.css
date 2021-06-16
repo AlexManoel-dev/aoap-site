@@ -1,0 +1,645 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap');
+
+.carrregando{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+#gif{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+::-webkit-scrollbar{
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-thumb{
+    background-color: #5683d6ea;
+    border-radius: 30px;
+}
+
+.corpo{
+    display: none;
+}
+
+html{
+    /*A cada 1 rem será considerado 10px*/
+    font-size: 62.5%;
+}
+
+body{
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    font-size: 1.6rem;
+}
+
+header{
+    background-color: #4169E1;
+}
+
+header #cabecalho{
+    width: 100%;
+    padding: 40px 0%;
+    height: 30px;
+    color: white;
+    text-align: center;
+    font-family: 'Prompt', sans-serif;
+}
+
+#logoaoap{
+    width: 110px;
+    height: 90px;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+
+#AOAP{
+    margin-top: -7px;
+    font-size: 3.2rem;
+}
+
+.divfora{
+    width: 81.5%;
+    height: 700px;
+    border: solid blue 1px;
+    border-radius: 10px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: Verdana, sans-serif;
+}
+
+
+.cadastro1{
+    width: 580px;
+    position: absolute;
+    top: 0;
+    color: black;
+    height: 200px;
+    
+}
+
+.cadastro2{
+    width: 490px;
+    position: absolute;
+    top: 200px;
+    left: 10px;
+    color: black;
+    height: 200px;
+    
+}
+.cadastro3{
+    width: 492px;
+    position: absolute;
+    top: 400px;
+    left: 10px;
+    color: black;
+    height: 200px;
+    
+}
+
+.cadastro4{
+    width: 490px;
+    position: absolute;
+    top: 0px;
+    left: 780px;
+    color: black;
+    height: 300px;
+}
+
+.divfora h1{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.2rem;
+}
+
+
+#novaconta{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+
+#esqueceusenha{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+
+#novaconta:hover{
+    text-decoration: underline;
+}
+
+#esqueceusenha:hover{
+    text-decoration: underline;
+}
+
+.links{
+    text-decoration: double;
+}
+
+.caixadetexto{
+    width: 447px;
+    padding: 30px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0);
+    left: 0;
+}
+
+.caixadetexto .input-data{
+    height: 40px;
+    width: 100%;
+    position: relative;
+}
+
+.caixadetexto .input-data input{
+    height: 100%;
+    width: 100%;
+    border: 0 none;
+    outline: 0;
+    font-size: 16px;
+    border-bottom: 2px solid silver;
+}
+
+
+
+.input-data input:focus ~ label,
+.input-data input:valid ~ label{
+    transform: translateY(-20px);
+    font-size: 15px;
+}
+
+.caixadetexto .input-data label{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    color: grey;
+    pointer-events: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: all 0.3s ease;
+}
+
+.caixadetexto .input-data .underline1{
+    position: absolute;
+    bottom: -4px;
+    height: 2px;
+    width: 450px;
+}
+
+.input-data .underline1::before{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: #4169E1;
+    transform: scaleX(0);
+    transition: 0.3s ease;
+}
+
+.input-data input:focus ~ .underline1:before,
+.input-data input:valid ~ .underline1:before{
+    transform: scaleX(1);
+}
+
+#botao{
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    outline: 0;
+}
+
+.efeito-3{
+    background: #4169E1;
+    color: white;
+}
+
+.efeito-3:hover{
+    background: rgba(0,0,0,0);
+    color: #4169E1;
+    box-shadow: inset 0 0 0 3px #4169E1;
+    transition: all 0.3s linear;
+}
+
+#rodape{
+    background-color: #4169E1;
+    width: 100%;
+    padding: 40x 2%;
+    height: 97px;
+    color: white;
+    text-align: center;
+    margin-top: 450px;
+}
+
+#inputbottom{
+    position: absolute;
+    height: 50px;
+    width: 508px;
+    left: 49.3%;
+}
+
+.caixadetexto2{
+    width: 447px;
+    padding: 30px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0);
+}
+
+.caixadetexto2 .input-data2{
+    height: 40px;
+    width: 100%;
+    position: relative;
+}
+
+.caixadetexto2 .input-data2 input{
+    height: 100%;
+    width: 100%;
+    border: 0 none;
+    outline: 0;
+    font-size: 16px;
+    border-bottom: 2px solid silver;
+}
+
+.caixadetexto2 .input-data2 label{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    color: grey;
+    pointer-events: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: all 0.3s ease;
+}
+
+.input-data2 input:focus ~ label,
+.input-data2 input:valid ~ label{
+    transform: translateY(-20px);
+    font-size: 15px;
+}
+
+.caixadetexto2 .input-data2 .underline2{
+    position: absolute;
+    bottom: -4px;
+    height: 2px;
+    width: 450px;
+}
+
+.input-data2 .underline2::before{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: #4169E1;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+.input-data2 input:focus ~ .underline2::before,
+.input-data2 input:valid ~ .underline2::before{
+    transform: scaleX(1);
+}
+
+#home{
+    position: absolute;
+    height: 40px;
+    right: 70px;
+    top: 27px;
+}
+
+#phome:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+#phome{
+    position: absolute;
+    height: 20px;
+    right: 32px;
+    top: 65px;
+    font-family: 'Prompt';
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+#selectuf{
+    position: absolute;
+    left: 510px;
+    bottom: 35px;
+    border-radius: 6px;
+    background-color: rgb(143, 143, 229);
+    color: white;
+}
+#hrdivfora{
+    border-color: rgba(0, 0, 0, 0.623) ;
+}
+h1{
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Prompt';
+}
+
+@media(max-width: 2560px){
+    .divfora{
+        position: absolute;
+        top: 280px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .textocadastro{
+        position: absolute;
+        top: 130px;
+        left: 45%;
+    }
+    .cadastro4{
+        left: 50%;
+    }
+    
+}
+
+@media(max-width: 1568px){
+    .divfora{
+        height: 1300px;
+        top: 280px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .cadastro1{
+        left: 30%;
+    }
+
+    .cadastro2{
+        left: 30%;
+    }
+
+    .cadastro3{
+        left: 30%;
+    }
+    .cadastro4{
+        top: 700px;
+        left: 30%;
+    }
+    #inputbottom{
+        bottom: 125px;
+        left: 30%;
+    }
+    #invisivel{
+        height: 100px;
+        margin-top: 1480px;
+        bottom: 0;
+        border: black solid 2px;
+    }
+    
+}
+@media(max-width:1440px){
+    #invisivel{
+        height: 100px;
+        margin-top: 1480px;
+        bottom: 0;
+        border: black solid 2px;
+    }
+}
+
+@media(max-width: 1280px){
+    .divfora{
+        height: 1000px;
+        top: 280px;
+        left: 50%;
+        transform: translate(-50%);
+        width: 60%;
+    }
+    .textocadastro{
+        top: 130px;
+        left: 42.3%;
+    }
+    .cadastro1{
+        left: 20%;
+    }
+
+    .cadastro2{
+        left: 20%;
+    }
+
+    .cadastro3{
+        left: 20%;
+    }
+    .cadastro4{
+        top: 590px;
+        left: 20%;
+    }
+    #inputbottom{
+        bottom: 30px;
+        left: 20%;
+    }
+    #invisivel{
+        height: 100px;
+        margin-top: 1480px;
+        bottom: 0;
+        border: black solid 2px;
+    }
+}
+
+@media(max-width: 1039px){
+    .divfora{
+        height: 1000px;
+        top: 280px;
+        left: 50%;
+        transform: translate(-50%);
+        width: 60%;
+    }
+    .textocadastro{
+        top: 130px;
+        left: 42.3%;
+    }
+    .cadastro1{
+        left: 11%;
+    }
+
+    .cadastro2{
+        left: 11%;
+    }
+
+    .cadastro3{
+        left: 11%;
+    }
+    .cadastro4{
+        top: 600px;
+        left: 11%;
+    }
+    #inputbottom{
+        bottom: 40px;
+        left: 11%;
+    }
+}
+
+@media(max-width: 935px){
+    .divfora{
+        height: 1000px;
+        top: 280px;
+        left: 50%;
+        transform: translate(-50%);
+        width: 42%;
+    }
+    .textocadastro{
+        top: 130px;
+        left: 42.3%;
+    }
+    .cadastro1{
+        left: 6%;
+        width: 90%;
+    }
+
+    .cadastro2{
+        left: 6%;
+        width: 90%;
+    }
+
+    .cadastro3{
+        left: 6%;
+        width: 90%;
+    }
+    .cadastro4{
+        top: 600px;
+        left: 6%;
+        width: 90%;
+    }
+    #inputbottom{
+        bottom: 40px;
+        left: 6%;
+        width: 340px;
+    }
+    .caixadetexto .input-data{
+        width: 80%;
+    }
+    .caixadetexto .input-data input{
+        width: 80%;
+    }
+    .caixadetexto .input-data .underline1{
+        width: 289px;
+    }
+    .caixadetexto2 .input-data2{
+        width: 80%;
+    }
+    .caixadetexto2 .input-data2 input{
+        width: 80%;
+    }
+    .caixadetexto2 .input-data2 .underline2{
+        width: 289px;
+    }
+    #selectuf{
+        left: 330px;
+    }
+}
+
+@media(max-width: 934px){
+    .divfora{
+        height: 1000px;
+        top: 280px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .textocadastro{
+        top: 130px;
+        left: 42.3%;
+    }
+    .caixadetexto{
+        width: 87%;
+    }
+    .caixadetexto2{
+        width: 87%;
+    }
+    .divfora{
+        width: 386px;
+    }
+    
+    .cadastro1{
+        left: 6%;
+        width: 90%;
+    }
+
+    .cadastro2{
+        left: 6%;
+        width: 90%;
+    }
+
+    .cadastro3{
+        left: 6%;
+        width: 90%;
+    }
+    .cadastro4{
+        top: 600px;
+        left: 6%;
+        width: 90%;
+    }
+    #inputbottom{
+        bottom: 40px;
+        left: 6%;
+        width: 340px;
+    }
+    .caixadetexto .input-data{
+        width: 80%;
+    }
+    .caixadetexto .input-data input{
+        width: 115%;
+    }
+    .caixadetexto .input-data .underline1{
+        width: 295px;
+    }
+    .caixadetexto2 .input-data2{
+        width: 80%;
+    }
+    .caixadetexto2 .input-data2 input{
+        width: 115%;
+    }
+    .caixadetexto2 .input-data2 .underline2{
+        width: 295px;
+    }
+    #selectuf{
+        left: 330px;
+    }
+}
+
+@media(max-width: 885px){
+    .textocadastro{
+        top: 130px;
+        left: 39.4%;
+    }
+}
+
+@media(max-width: 618px){
+    #AOAP{
+        opacity: 0;
+    }
+    #home{
+        opacity: 0;
+    }
+    #phome{
+        opacity: 0;
+        pointer-events: none;
+    }
+    #logoaoap{
+        left: 40%;
+    }
+}
+
+@media(max-width: 590px){
+    .textocadastro{
+        top: 130px;
+        left: 34%;
+    }
+}
+
+@media(max-width: 497px){
+    .textocadastro{
+        left: 29.3%;
+    }
+}

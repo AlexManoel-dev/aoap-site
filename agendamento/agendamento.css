@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+
+.carrregando{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+#gif{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.corpo{
+    display: none;
+}
+::-webkit-scrollbar{
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-thumb{
+    background-color: #5683d6ea;
+    border-radius: 30px;
+}
+
+html{
+    /*A cada 1 rem será considerado 10px*/
+    font-size: 62.5%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 1.6rem;
+}
+
+header{
+    background-color: #4169E1;
+}
+
+header #cabecalho{
+    width: 100%;
+    padding: 40px 0%;
+    height: 30px;
+    color: white;
+    text-align: center;
+    font-family: 'Prompt', sans-serif;
+}
+
+#logoaoap{
+    width: 110px;
+    height: 90px;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+
+#AOAP{
+    margin-top: -7px;
+    font-size: 3.2rem;
+}
+#home{
+    position: absolute;
+    height: 40px;
+    right: 70px;
+    top: 27px;
+}
+
+#phome:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+#phome{
+    position: absolute;
+    height: 20px;
+    right: 32px;
+    top: 65px;
+    font-family: 'Prompt';
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#divfora{
+    width: 90.5%;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-75%);
+    color: black;
+    height: 645px;
+    border: solid black 2px;
+    font-family: 'Prompt';
+}
+
+#hospitais{
+    position: absolute;
+    left: 30px;
+    width: 350px;
+    height: 300px;
+    border-bottom: solid rgba(55, 66, 75, 0.664) 1px;
+}
+#titulo2{
+    position: absolute;
+    bottom: 0;
+    left: 90px;
+}
+#especialidades{
+    position: absolute;
+    left: 0;
+    width: 359px;
+    height: 300px;
+    top: 304px;
+    
+    font-size: 14px;
+}
+
+#dados{
+    position: absolute;
+    right: 0;
+    width: 1300px;
+    height: 100%;
+    border: none;
+    border-left: solid rgba(40, 71, 97, 0.664) 1px;
+}
+
+.listahospitais{
+    list-style-type: none;
+}
+.listaespecialidades{
+    list-style-type: none;
+    margin-left: -10px;
+}
+.listaespecialidades2{
+    position: absolute;
+    top: 0px;
+    left: 200px;
+    list-style-type: none;
+    
+}
+#botao29{
+    margin-top: 15px;
+}
+#botao30{
+    margin-top: 50px;
+}
+#botao31{
+    margin-top: 85px;
+}
+#botao32{
+    margin-top: 120px;
+}
+#botao33{
+    margin-top: 155px;
+}
+#botao34{
+    margin-top: 190px;
+}
+#botao35{
+    margin-top: 225px;
+}
+#botao36{
+    margin-top: 260px;
+}
+
+#ulhospitais{
+    position: absolute;
+    top: 90px;
+    left: 72px;
+}
+
+#botao2{
+    margin-top: 10px;
+    
+}
+
+#botao3{
+    margin-top: 10px;
+}
+
+#titulo1{
+    text-align: center;
+}
+
+#hrhospitais{
+    width: 90%;
+}
+
+
+@media(max-width: 2560px){
+    #divfora{
+        top: 700px;
+        width: 1770px;
+    }
+    #dados{
+        width: 1350px;
+    }
+}
+
+@media(max-width: 1835px){
+    #divfora{
+        top: 700px;
+        width: 1500px;
+    }
+    #dados{
+        width: 1100px;
+    }
+}
+
+@media(max-width: 1549px){
+    #divfora{
+        top: 700px;
+        width: 1250px;
+    }
+    #dados{
+        width: 860px;
+    }
+}
+
+@media(max-width: 1440px){
+    #divfora{
+        width: 1200px;
+        top: 500px;
+    }
+    #dados{
+        width: 800px;
+    }
+}
+
+@media(max-width: 1280px){
+    #divfora{
+        position: absolute;
+        top: 170px;
+        left: 50%;
+        transform: translate(-50%);
+        width: 1150px;
+    }
+    #dados{
+        width: 750px;
+    }
+}
+
+@media(max-width: 1176px){
+    #divfora{
+        width: 920px;
+    }
+    #dados{
+        width: 530px;
+    }
+}
+
+@media(max-width: 1039px){
+    #divfora{
+        width: 920px;
+    }
+    #dados{
+        width: 530px;
+    }
+}
+
+@media(max-width: 995px){
+    #divfora{
+        width: 700px;
+        height: 1100px;
+    }
+    #hospitais{
+        left: 170px;
+    }
+    #especialidades{
+        left: 170px;
+    }
+    #dados{
+        width: 100%;
+        height: 450px;
+        bottom: 0;
+        border-top: solid rgba(40, 71, 97, 0.664) 1px;
+    }
+}
+
+@media(max-width: 765px){
+    #divfora{
+        width: 500px;
+    }
+    #hospitais{
+        left: 80px;
+    }
+    #especialidades{
+        left: 80px;
+    }
+}
+
+@media(max-width: 565px){
+    #divfora{
+        width: 400px;
+    }
+    #hospitais{
+        left: 30px;
+    }
+    #especialidades{
+        left: 30px;
+    }
+    
+}
+
+@media(max-width: 543px){
+    #AOAP{
+        opacity: 0;
+    }
+    #home{
+        opacity: 0;
+    }
+    #phome{
+        opacity: 0;
+        pointer-events: none;
+    }
+    #logoaoap{
+        left: 40%;
+    }
+}

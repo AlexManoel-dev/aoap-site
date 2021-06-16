@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap');
+
+@keyframes bounce {
+    0%, 20%, 60%, 100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    40%{
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-22px);
+    }
+    80% {
+        -webkit-transform: translateY(-12px);
+        transform: translateY(-14px);
+    } 
+}
+
+html{
+    font-size: 62.5%;
+}
+.corpo{
+    display: none;
+}
+.carrregando{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    
+    
+}
+#gif{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+
+body{
+    -webkit-appearance:inherit;
+    background:white;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+   
+}
+
+::-webkit-scrollbar{
+    width: 12px;
+    
+    
+}
+ 
+::-webkit-scrollbar-thumb{
+    background-color: #c03636e5;
+    border-radius: 30px;
+}
+
+    
+
+#foto{
+    width: 130px;
+    height: 110px;
+    
+   
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+#divheader{
+    height: 130px;
+    background:#d13535;
+    font-family: 'Prompt', sans-serif;
+    
+    width: 100%;
+    max-width: 4000px;
+    
+    
+   
+}
+
+
+#pheader{
+     /*serve para que um elemento fique na mesma linha do outro */
+    font-size: 7.8rem;
+    text-align: center;
+    margin-top: -122px;
+   
+    color:white;
+    
+
+}
+
+
+
+.botao{
+    background: #2162c4f5;
+    color: white;
+    font-family: 'Prompt';
+    font-size: 2.4rem;
+    border-color: #d13535;
+    border-radius: 25px;
+    margin: 12px;
+    margin-right: 55px;
+    cursor:pointer;
+    height: 58px;
+    padding: 0%;
+    outline: 0;
+    background:#d13535;
+    
+   
+}
+
+.botao:hover{
+    background:#d13535;;
+    transition: 400ms;
+    border-radius: 26px;
+    animation: bounce 0.9s;
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+
+}
+
+
+#botoes{
+   width: 100%;
+   height: 80px;
+   text-align: center;
+   margin-top: 2.3%;
+   display: inline-block;
+   
+ 
+}
+
+
+iframe{
+    
+    border-radius: 55px;
+    padding-top: 20px;
+    width: 100%;
+    max-width: 4000px;
+    
+   
+    
+    
+}
+
+a{
+    color: white;
+    text-decoration: none;  /*serve para tirar a marcação do link*/
+    
+}
+
+
+#if{
+    margin-left: 45px;
+    
+}
+
+#home{
+    
+    position: absolute;
+    height: 40px;
+    right: 70px;
+    top: 35px;
+
+}
+#phome:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+
+    
+}
+
+#phome{
+    position: absolute;
+    height: 20px;
+    right: 32px;
+    top: 76px;
+    font-family: 'Prompt';
+    color: white;
+    cursor: pointer;
+    font-size: 1.6rem;
+    
+}
+
+header{
+    padding: 0;
+    margin: 0%;
+    
+}
+
+
+/*media queries*/
+
+@media (max-width:1521px){
+    .botao{
+        font-size: 1.8rem;
+        margin-right: 40px;
+    }
+
+}
+@media (max-width:1164px){
+    .botao{
+        font-size: 1.6rem;
+        margin-right: 35px;
+    }
+
+}
+@media(max-width:1096px){
+    #pheader{
+        opacity: 0;
+        font-size: 0;
+    }
+}
+@media (max-width:1047px){
+    .botao{
+        font-size: 1.4rem;
+        margin-right: 30px;
+        height: 47px;
+        margin-top: 22px;
+    }
+
+}
+@media (max-width:930px){
+    .botao{
+        font-size: 1.4rem;
+        margin-right: 28px;
+        
+        margin-top: 22px;
+    }
+    #botoes{
+        
+    }
+
+}
+@media (max-width:835px){
+    .botao{
+        font-size: 1.3rem;
+        margin-right: 28px;
+        height: 46px;
+    }
+
+}
+
+
+@media (max-width:768px){
+    html{
+        font-size: 50%;
+        
+    }
+   .botao{
+    font-size: 1.7rem;
+       margin-right: 16px;
+       
+   }
+
+}
+@media (max-width:692px){
+    
+   .botao{
+    font-size: 1.5rem;
+      
+       
+   }
+
+}
+@media (max-width:642px){
+    
+    #phome{
+        opacity: 0;
+    }
+    #home{
+        opacity: 0;
+    }
+    #foto{
+        margin-left: 37%;
+    }
+    .botao{
+        font-size: 1.4rem;
+          
+           
+       }
+}
+@media (max-width:605px){
+    .botao{
+        font-size: 1.7rem;
+        margin-right: 18px;
+        margin-top: 20px;
+        width: 180px;
+       
+        
+    }
+}
+
+
+
+
+
+
